@@ -2,6 +2,7 @@ import pygame
 from constants import *
 
 def main():
+    # chapter 2 exercise 3
     pygame.init()
     reloj = pygame.time.Clock()
     dt = 0
