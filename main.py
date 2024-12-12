@@ -18,7 +18,7 @@ def main():
 
         screen.fill((0, 0, 0))
         pygame.display.flip()
-        reloj.tick(60)
+        dt = reloj.tick(60) / 1000
         
 
 if __name__ == "__main__":
